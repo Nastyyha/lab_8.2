@@ -1,0 +1,5 @@
+@"
+Первая строка
+Вторая строка
+Третья строка
+"@ | Out-File -FilePath "test.txt" -Encoding UTF810

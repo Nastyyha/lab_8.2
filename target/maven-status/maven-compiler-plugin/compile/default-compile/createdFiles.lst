@@ -1,0 +1,14 @@
+com\example\fileprocessor\modules\image\ImageFormatModule.class
+com\example\fileprocessor\modules\mp3\Mp3TitleModule.class
+com\example\fileprocessor\modules\text\TextWordCountModule.class
+com\example\fileprocessor\FileProcessorApplication.class
+com\example\fileprocessor\modules\text\TextCharFrequencyModule.class
+com\example\fileprocessor\modules\dir\DirectorySizeModule.class
+com\example\fileprocessor\modules\image\ImageSizeModule.class
+com\example\fileprocessor\modules\mp3\Mp3DurationModule.class
+com\example\fileprocessor\modules\dir\DirectoryListModule.class
+com\example\fileprocessor\modules\text\TextLineCountModule.class
+com\example\fileprocessor\modules\dir\DirectoryExtensionCountModule.class
+com\example\fileprocessor\modules\mp3\Mp3ArtistModule.class
+com\example\fileprocessor\modules\image\ImageExifModule.class
+com\example\fileprocessor\modules\FileModule.class

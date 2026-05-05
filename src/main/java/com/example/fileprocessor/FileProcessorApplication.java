@@ -9,6 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.File;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 @SpringBootApplication
@@ -42,7 +43,7 @@ public class FileProcessorApplication implements CommandLineRunner {
                         return false;
                     }
                 })
-                .toList();
+                .collect(Collectors.toList());
 
         if (supportedModules.isEmpty()) {
             System.out.println("No modules support this file.");
